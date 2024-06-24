@@ -1,5 +1,5 @@
-pandas @ file:///C:/b/abs_fej9bi0gew/croot/pandas_1702318041921/work/dist/pandas-2.1.4-cp311-cp311-win_amd64.whl#sha256=d3609b7cc3e3c4d99ad640a4b8e710ba93ccf967ab8e5245b91033e0200f9286
-seaborn @ file:///C:/ci_311/seaborn_1676446547861/work
-matplotlib @ file:///C:/b/abs_e26vnvd5s1/croot/matplotlib-suite_1698692153288/work
+pandas==2.2.2
+seaborn==0.12.2
+matplotlib==3.8.0
 streamlit==1.36.0
 protobuf==3.20.1
