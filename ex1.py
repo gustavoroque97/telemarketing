@@ -2,6 +2,7 @@ import pandas            as pd
 import streamlit         as st
 import seaborn           as sns
 import matplotlib.pyplot as plt
+import openpyxl
 from PIL                 import Image
 from io                  import BytesIO
 
