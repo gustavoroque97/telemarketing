@@ -43,7 +43,7 @@ def to_excel(df):
 def main():
     # Config inicial da página
     st.set_page_config(page_title = 'Telemarketing Analysis', \
-                        page_icon = r"C:\Users\Borracha\Desktop\Curso EBAC\Streamlit\telemarketing\img\telmarketing_icon.png",
+                        page_icon = "telmarketing_icon.png",
                         layout='wide',
                         initial_sidebar_state='expanded')
     # Título
@@ -51,7 +51,7 @@ def main():
     st.markdown("---")
 
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open(".\img\Bank-Branding.jpg")
+    image = Image.open("Bank-Branding.jpg")
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
